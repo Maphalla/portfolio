@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>portfolio | tee</title>
+
+    <link href="https://unpkg.com/swiper@7/swiper-bundle.min.css" rel='stylesheet' />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel='stylesheet' />
+    <link rel='stylesheet' href='../css/info.css' />
+    <link rel='stylesheet' href='../css/style.css' />
+</head>
+
+<body>
+    <!--graphics design-->
+    <section class="services" id="services" style="background-color: #323946;">
+        <h2 class="heading">Graphics <span>Design</span></h2>
+        <div class="services-container">
+            <p> 
+                <h3>Here is some of my latest designs.</h3>
+            </p>
+        </div>
+        <section class="services_container mySwiper" id="services">
+        <div class="swiper-wrapper">
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/7nth (2).png'' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/teeLogos.jpg' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/IMG-20230904-WA0013.jpg' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/IMG-20230904-WA0009.jpg' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/3D 1.png' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/3D 2.png' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/IMG-20230904-WA0012.jpg' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/tee 2.png' alt=""/>
+                </div>
+            </article>
+<!-- 
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/tee 3.png' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/tee 4.png' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/tee 1.png' alt=""/>
+                </div>
+            </article>
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/IMG-20230904-WA0011.jpg'' alt=""/>
+                </div>
+            </article> -->
+
+            <article class="logo_services swiper-slide">
+                <div class="avatar">
+                 <img src='myLogos/7nth (1).png' alt=""/>
+                </div>
+            </article>
+          
+        </div>
+        <div class="swiper-pagination"></div>
+        </section>
+
+    </section>
+
+    <!--web design-->
+    <section class="portfolio" id="portfolio" style="background-color: #1f242d;">
+        <h2 class="heading">Web <span>Design</span></h2>
+        <h2 class="heading">
+               PROJECTS LOADING........
+        </h2>
+            <!-- <br/>
+            
+
+        <div class="portfolio-box">
+            <img src="../app/app/taskTrackerApp.png" class='imgs' alt="" />
+        </div> 
+
+        <div class="portfolio-box">
+            <img src="../app/app/trackerApp.png" class='imgs' alt="" /> 
+            <h1>Loading....</h1>
+        </div> 
+
+        <div class="portfolio-box">
+            <img src="../app/app/trackerApp2.png" class='imgs' alt="" />
+        </div>   -->
+
+         <p>
+           I have created the following project using reactJS. It may be a small project,
+            but it showcases my development skills and the ability to work with external API's. 
+            Please visit the following 
+           link to see the project in action.
+            <a href="https://maphalla.github.io/Filmpire_clone/" target="_blank" rel="noopener noreferrer" class="teeMovies">FILMPIRE_CLONE</a>
+        </p>
+
+    </section>
+
+        <!-- app development-->
+<!-- 
+    <section class="about" id="about">
+
+https://github.com/Maphalla
+    </section> -->
+
+
+    <!--footer design-->
+    <footer class="footer">
+        <!--<i class='bx bx-moon' id="toggle-light"></!--<i>-->
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Thato Maphalla | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="../index.html"><i class='bx bx-left-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="../js/script.js"></script>
+    
+    <script>
+        var swiper = new Swiper(".mySwiper",{
+            slidesPerView:3,
+            spaceBetween:30,
+            pagination:{
+                el:".swiper-pagination",
+                clickable:true,
+            },
+
+            //BREAKPOINTS
+            breakpoints:{
+                600:{
+                    slidesPerView:1,
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
