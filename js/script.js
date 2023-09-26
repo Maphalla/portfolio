@@ -66,7 +66,7 @@ ScrollReveal().reveal('.home-content p , .about-content ', {
 /** =================== typed js============*/
 
 const typed = new Typed(' .multiple-text', {
-    strings: [ ' Frontend Developer','Graphics Designer' ],
+    strings: [ 'Computer Systems Engineer'],
     typedSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
